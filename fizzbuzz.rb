@@ -5,7 +5,5 @@ def fizzbuzz(n)
     "Fizz"
   elsif n % 5 == 0 
     "Buzz"
-  else n % 3 != 0 || n % 5 != 0 
-    nil
   end
 end
